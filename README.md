@@ -24,7 +24,20 @@ Please cite if you uses their dataset.
     DOI = {10.3390/rs12101662}
     }
 ## Getting Started
+* Clone the repository
+        
+      $ git clone https://github.com/Rayhchs/Change-detection.git
+        
+* You could download the dataset from: https://justchenhao.github.io/LEVIR/.
+After that, unzip the file to train, test and val folder.
 
+* For Training
+
+      $ python train.py
+        
+* For Testing
+
+      $ python prediction.py
 
 ## References
 [1] Shi, X., Chen, Z., Wang, H., Yeung, D. Y., Wong, W. K., & Woo, W. C. (2015). Convolutional LSTM network: A machine learning approach for precipitation nowcasting. arXiv preprint arXiv:1506.04214.
