@@ -65,7 +65,7 @@ def main():
     final_output = np.zeros(shape=(F1_total.shape[0],2),dtype=np.float32)
     final_output[:,0] = iou_total
     final_output[:,1] = F1_total
-    np.savetxt("output.csv", final_output, delimiter=",")
+    np.savetxt("evaluation.csv", final_output, delimiter=",")
 
 if __name__ == '__main__':
 	main()
