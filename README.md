@@ -39,6 +39,9 @@ After that, unzip the file to train, test and val folder.
 
       $ python prediction.py
 
+## Results
+
+
 ## References
 [1] Shi, X., Chen, Z., Wang, H., Yeung, D. Y., Wong, W. K., & Woo, W. C. (2015). Convolutional LSTM network: A machine learning approach for precipitation nowcasting. arXiv preprint arXiv:1506.04214.
 
