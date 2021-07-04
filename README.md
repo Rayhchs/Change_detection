@@ -51,17 +51,17 @@ However, the 120 testing pairs can only achieve **0.66** of mIOU and **0.75** of
 ### Area 7
 | Pre Image  | Post Image | Label | Detection Result |
 | ------------- | ------------- | ------------- | ------------- |
-| <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/A/test_7.png" alt="Editor" width="250" title="Pre"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/B/test_7.png" alt="Editor" width="250" title="Post"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/label/test_7.png" alt="Editor" width="250" title="Label"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/predict/7.png" alt="Editor" width="250" title="Label"> |
+| <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/A/test_7.png" alt="Editor" width="250" title="Pre"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/B/test_7.png" alt="Editor" width="250" title="Post"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/label/test_7.png" alt="Editor" width="250" title="Label"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/predict/7.png" alt="Editor" width="250" title="Predict"> |
 
 ### Area 10
 | Pre Image  | Post Image | Label | Detection Result |
 | ------------- | ------------- | ------------- | ------------- |
-| <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/A/test_10.png" alt="Editor" width="250" title="Pre"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/B/test_10.png" alt="Editor" width="250" title="Post"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/label/test_10.png" alt="Editor" width="250" title="Label"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/predict/10.png" alt="Editor" width="250" title="Label"> |
+| <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/A/test_10.png" alt="Editor" width="250" title="Pre"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/B/test_10.png" alt="Editor" width="250" title="Post"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/label/test_10.png" alt="Editor" width="250" title="Label"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/predict/10.png" alt="Editor" width="250" title="Predict"> |
 
 ### Area 14
 | Pre Image  | Post Image | Label | Detection Result |
 | ------------- | ------------- | ------------- | ------------- |
-| <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/A/test_14.png" alt="Editor" width="250" title="Pre"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/B/test_14.png" alt="Editor" width="250" title="Post"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/label/test_14.png" alt="Editor" width="250" title="Label"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/predict/14.png" alt="Editor" width="250" title="Label"> |
+| <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/A/test_14.png" alt="Editor" width="250" title="Pre"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/B/test_14.png" alt="Editor" width="250" title="Post"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/label/test_14.png" alt="Editor" width="250" title="Label"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/predict/14.png" alt="Editor" width="250" title="Predict"> |
 
 ## References
 [1] Shi, X., Chen, Z., Wang, H., Yeung, D. Y., Wong, W. K., & Woo, W. C. (2015). Convolutional LSTM network: A machine learning approach for precipitation nowcasting. arXiv preprint arXiv:1506.04214.
