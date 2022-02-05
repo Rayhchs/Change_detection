@@ -2,6 +2,7 @@
 In the field of remote sensing science, change detection is one of the most important tasks, especially for urban monitoring, land development monitoring, etc.
 This repository perform a change detection of building using a deep learning model composed of ConvLSTM layer [1] and U-Net [2] model.
 
+
 ## Dataset
 This repository uses LEVIR-CD remotely sensed binary change detection dataset. 
 It consists of 637 VHR bi-temporal images with 1024 x 1024 pixels.
@@ -12,21 +13,7 @@ In this repository, 440 pairs of images are used for training, 60 pairs are used
 | ------------- | ------------- |------------- |
 | <img src="https://github.com/Rayhchs/Change_detection/blob/main/train/A/train_1.png" alt="Editor" width="250" title="Pre"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/train/B/train_1.png" alt="Editor" width="250" title="Post"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/train/label/train_1.png" alt="Editor" width="250" title="Label"> |
 
-## Citation
-Please cite if you uses their dataset.
 
-    @Article{Chen2020,
-    AUTHOR = {Chen, Hao and Shi, Zhenwei},
-    TITLE = {A Spatial-Temporal Attention-Based Method and a New Dataset for Remote Sensing Image Change Detection},
-    JOURNAL = {Remote Sensing},
-    VOLUME = {12},
-    YEAR = {2020},
-    NUMBER = {10},
-    ARTICLE-NUMBER = {1662},
-    URL = {https://www.mdpi.com/2072-4292/12/10/1662},
-    ISSN = {2072-4292},
-    DOI = {10.3390/rs12101662}
-    }
 ## Getting Started
 * Clone the repository
         
@@ -42,6 +29,7 @@ After that, unzip the file to train, test and val folder.
 * For Testing
 
       $ python prediction.py
+
 
 ## Results
 Here we display some well detected results. 
@@ -62,6 +50,24 @@ However, the 120 testing pairs can only achieve **0.66** of mIOU and **0.75** of
 | Pre Image  | Post Image | Label | Detection Result |
 | ------------- | ------------- | ------------- | ------------- |
 | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/A/test_14.png" alt="Editor" width="250" title="Pre"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/B/test_14.png" alt="Editor" width="250" title="Post"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/label/test_14.png" alt="Editor" width="250" title="Label"> | <img src="https://github.com/Rayhchs/Change_detection/blob/main/test/predict/14.png" alt="Editor" width="250" title="Predict"> |
+
+
+## Citation
+Please cite this paper if you uses their dataset.
+
+    @Article{Chen2020,
+    AUTHOR = {Chen, Hao and Shi, Zhenwei},
+    TITLE = {A Spatial-Temporal Attention-Based Method and a New Dataset for Remote Sensing Image Change Detection},
+    JOURNAL = {Remote Sensing},
+    VOLUME = {12},
+    YEAR = {2020},
+    NUMBER = {10},
+    ARTICLE-NUMBER = {1662},
+    URL = {https://www.mdpi.com/2072-4292/12/10/1662},
+    ISSN = {2072-4292},
+    DOI = {10.3390/rs12101662}
+    }
+
 
 ## References
 [1] Shi, X., Chen, Z., Wang, H., Yeung, D. Y., Wong, W. K., & Woo, W. C. (2015). Convolutional LSTM network: A machine learning approach for precipitation nowcasting. arXiv preprint arXiv:1506.04214.
